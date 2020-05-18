@@ -1,4 +1,6 @@
-Esta es la prueba de mayo para git
+Esta es la prueba de mayo para git.
 
 Probamos comandos avanzados de git?
-Y si añado algo mas?
+Y si añado algo más?
+
+Pues no me calculado bien el cambio, y ahora?
