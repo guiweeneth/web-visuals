@@ -1,5 +1,4 @@
 body{
-    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     color: blueviolet;
 }
@@ -22,4 +21,18 @@ body{
 }
 #post p{
     font-size: 2em;
+}
+#cabecera{
+    background: burlywood;
+    color: #000;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+#cabecera h1{
+    font-size: 5em;
+    color: green;
+}
+#cabecera h2{
+    color: lightseagreen;
+    font-size: 4em;
 }
