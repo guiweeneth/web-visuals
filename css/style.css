@@ -18,4 +18,8 @@ body{
 }
 
 #post{
+    color: maroon;
+}
+#post p{
+    font-size: 2em;
 }
