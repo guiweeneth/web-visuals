@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Asymetric Gallery</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: inherit;
+        }
+        img,figure{
+            max-width: 100%;
+            height: auto;
+        }
+
+		body {
+			box-sizing: border-box;
+			font-size: 62.5%;
+		}
+
+		#asymetric-gallery {
+			background-color: white;
+			width: 100%;
+			height: auto;
+			padding: 1rem;
+
+			column-gap: 1em;
+    		column-width: 20em;
+			counter-reset: item;
+		}
+
+		#asymetric-gallery img, #asymetric-gallery header{
+			align-items: stretch;
+			box-sizing: border-box;
+			-webkit-column-break-inside: avoid;
+			counter-increment: item;
+			display: flex;
+			height: auto;
+			justify-content: center;
+			padding-bottom: 10px;
+		}
+
+	</style>
+    </head>
+    <body>
+        <div id="container">
+            <section id="asymetric-gallery">
+				<header>
+					<h1>Galería asimétrica y flexible</h1>
+				</header>
+						<img src="img/1.jpg" /> <figcaption>Planta 1</figcaption>
+						<img src="img/2.jpg" /> <figcaption>Planta 2</figcaption>
+						<img src="img/3.jpg" /> <figcaption>Planta 3</figcaption>
+						<img src="img/4.jpg" /> <figcaption>Planta 4</figcaption>
+						<img src="img/5.jpg" /> <figcaption>Planta 5</figcaption>
+						<img src="img/6.jpg" /> <figcaption>Planta 6</figcaption>
+						<img src="img/7.jpg" /> <figcaption>Planta 7</figcaption>
+						<img src="img/8.jpg" /> <figcaption>Planta 8</figcaption>
+						<img src="img/9.jpg" /> <figcaption>Planta 9</figcaption>
+						<img src="img/10.jpg" /> <figcaption>Planta 10</figcaption>
+						<img src="img/11.jpg" /> <figcaption>Planta 11</figcaption>
+						<img src="img/12.jpg" /> <figcaption>Planta 12</figcaption>
+            </section>
+        </div>
+    </body>
+</html>
